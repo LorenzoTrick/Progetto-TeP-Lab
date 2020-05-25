@@ -2,6 +2,7 @@
 
 class UML_PoliAmbulatorio {
     public static void main(String[] args)
+    public visualizzaVisite(String nome, String password);
 }
 
 class CAmbulatorio  {
@@ -17,6 +18,9 @@ class CMedico {
     CDate  dataLaurea;  
     int    orarioInizioVisite;
     int    orarioFineVisite;
+    String password;
+    CVisita[] elencoVisite;
+    public visualizzaVisite();
 }
 class CPaziente {
     String nome;
